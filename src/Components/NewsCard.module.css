@@ -1,0 +1,65 @@
+/* components/NewsCard.module.css */
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .contentText {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .author,
+  .date,
+  .source {
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 5px;
+  }
+  
+  .link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+  
+  .link:hover {
+    background-color: #005bb5;
+  }
+  
